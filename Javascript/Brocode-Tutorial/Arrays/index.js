@@ -14,8 +14,6 @@ for(let fruit of fruits){
 
 
 
-
-
 //fruits.push("cocunut"); add element to end of array
 //fruits.pop(); remove last element 
 //fruits.unshift("mango"); add element to the beginning
