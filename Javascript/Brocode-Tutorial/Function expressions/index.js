@@ -11,5 +11,6 @@ const qubes = numbers.map(function(element){
 
 
 const evenNums = numbers.filter(function(element){
-  return element % === 0;
+  return element % 2 === 0;
 });
+
