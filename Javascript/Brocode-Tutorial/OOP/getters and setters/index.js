@@ -20,9 +20,24 @@ set height(newHeight){
         console.error("Height must be a positive number");
     }
 }
+
+get width(){
+    return `${this._width.toFixed(1)}cm`;
 }
 
-const rectangle = new Rectangle(-1000000,"pizza");
+get height(){
+    return `${this._height.toFixed(1)}cm`;
+}
+
+get area(){
+    return `${(this._width * this._height).toFixed(1)}cm`;
+}
+
+}
+
+const rectangle = new Rectangle(3,4);
+
 
 console.log(rectangle.width);
 console.log(rectangle.height);
+console.log(rectangle.area);
