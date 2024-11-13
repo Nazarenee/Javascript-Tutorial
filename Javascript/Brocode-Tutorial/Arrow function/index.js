@@ -19,3 +19,15 @@ console.log(cubes);
 console.log(evenNums);
 console.log(oddNums);
 console.log(total);
+
+
+
+const addTwoNumbers= (a,b ) => a+b;
+
+
+
+addTwoNumbers(1+2);
+
+function add(a,b){
+    return a+b;
+}
